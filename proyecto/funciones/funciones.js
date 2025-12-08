@@ -46,8 +46,108 @@ const productos = [
     precio: 320.00,
     imagen: 'imagenes/lavavajillas compacto.png',
     rating: 4.6
+  },
+
+  // Nuevos productos usando TODAS tus imágenes
+  {
+    id: 7,
+    nombre: 'Secadora eléctrica 18 kg',
+    categoria: 'Lavadoras',
+    precio: 480.00,
+    imagen: 'imagenes/secadora electrica.png',
+    rating: 4.4
+  },
+  {
+    id: 8,
+    nombre: 'Horno eléctrico 60L',
+    categoria: 'Pequeños',
+    precio: 210.00,
+    imagen: 'imagenes/horno electrico.png',
+    rating: 4.2
+  },
+  {
+    id: 9,
+    nombre: 'Licuadora profesional 1.5L',
+    categoria: 'Pequeños',
+    precio: 95.00,
+    imagen: 'imagenes/Licuadora profesional.png',
+    rating: 4.1
+  },
+  {
+    id: 10,
+    nombre: 'Refrigerador side-by-side 24 pies',
+    categoria: 'Refrigeradores',
+    precio: 1350.00,
+    imagen: 'imagenes/refrigerador sidebyside.png',
+    rating: 4.9
+  },
+  {
+    id: 11,
+    nombre: 'Campana extractora 90cm',
+    categoria: 'Pequeños',
+    precio: 260.00,
+    imagen: 'imagenes/cmapana estractora.png',
+    rating: 4.3
+  },
+  {
+    id: 12,
+    nombre: 'Cocina a gas 5 hornillas',
+    categoria: 'Pequeños',
+    precio: 540.00,
+    imagen: 'imagenes/cocina a gas 5 hornillas.png',
+    rating: 4.7
+  },
+  {
+    id: 13,
+    nombre: 'Heladera vertical 300L',
+    categoria: 'Refrigeradores',
+    precio: 680.00,
+    imagen: 'imagenes/heladera vertical 300.jpg',
+    rating: 4.4
+  },
+  {
+    id: 14,
+    nombre: 'Horno empotrable eléctrico',
+    categoria: 'Pequeños',
+    precio: 720.00,
+    imagen: 'imagenes/horno empotrable electrico.png',
+    rating: 4.8
+  },
+  {
+    id: 15,
+    nombre: 'Lavadora carga superior 12 kg',
+    categoria: 'Lavadoras',
+    precio: 390.00,
+    imagen: 'imagenes/lavadora carga superior.jpg',
+    rating: 4.0
+  },
+  {
+    id: 16,
+    nombre: 'Lavavajillas integrado 12 servicios',
+    categoria: 'Lavavajillas',
+    precio: 610.00,
+    imagen: 'imagenes/lavavajillas integrado 12 servicios.jpg',
+    rating: 4.5
+  },
+  {
+    id: 17,
+    nombre: 'Robot aspirador inteligente',
+    categoria: 'Pequeños',
+    precio: 450.00,
+    imagen: 'imagenes/robot aspirador inteligente.png',
+    rating: 4.6
+  },
+  {
+    id: 18,
+    nombre: 'Microondas grill 1.2 pies',
+    categoria: 'Microondas',
+    precio: 230.00,
+    imagen: 'imagenes/microondas grill.png',
+    rating: 4.5
   }
 ];
+
+
 
 
 const LIMITE_POR_PAGINA = 6;
