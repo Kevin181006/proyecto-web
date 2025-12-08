@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito - ElectroHogar</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body class="cuerpo-pagina">
+    <header class="encabezado">
+        <div class="encabezado-contenido">
+            <div class="logo">ElectroHogar</div>
+            <button class="boton-menu" aria-label="Abrir menú">☰</button>
+            <nav class="navegacion">
+                <ul id="menu-principal">
+                    <li><a href="estructura.html">Inicio</a></li>
+                    <li><a href="estructuraDelProducto.html">Producto</a></li>
+                    <li><a href="carrito.html">Carrito</a></li>
+                    <li><a href="contactos.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="envoltura-pagina">
+        <main class="contenido-principal">
+            <h1>Tu carrito</h1>
+            <table class="tabla-carrito">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpo-carrito">
+                    <tr>
+                        <td>Batidora Pro</td>
+                        <td>$20.00</td>
+                        <td>$20.00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"><strong>Total</strong></td>
+                        <td id="total-carrito"><strong>$20.00</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <a class="enlace-volver" href="estructura.html">← Seguir comprando</a>
+        </main>
+
+        <footer class="pie-pagina">
+            <div class="pie-pagina-contenido">
+                <div>
+                    <div class="pie-bloque-titulo">ElectroHogar</div>
+                    <p class="pie-descripcion">Tu tienda de confianza para electrodomésticos de calidad. Precios justos y garantía extendida.</p>
+                </div>
+                <div>
+                    <div class="pie-bloque-titulo">Categorías</div>
+                    <ul class="pie-lista">
+                        <li><a href="#">Refrigeradores</a></li>
+                        <li><a href="#">Lavadoras</a></li>
+                        <li><a href="#">Cocinas</a></li>
+                        <li><a href="#">Pequeños Electrodomésticos</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="pie-bloque-titulo">Ayuda</div>
+                    <ul class="pie-lista">
+                        <li><a href="#">Envíos y Entregas</a></li>
+                        <li><a href="#">Garantía</a></li>
+                        <li><a href="#">Devoluciones</a></li>
+                        <li><a href="contactos.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="pie-bloque-titulo">Newsletter</div>
+                    <p>Recibe ofertas exclusivas en electrodomésticos.</p>
+                    <div class="pie-newsletter-caja">
+                        <input type="email" placeholder="Tu correo electrónico">
+                        <button>→</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pie-pagina-copy">
+                © 2025 ElectroHogar. Todos los derechos reservados.
+            </div>
+        </footer>
+    </div>
+
+    <script src="funciones/funciones.js"></script>
+</body>
+</html>

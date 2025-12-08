@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroHogar - Tienda Online</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body class="cuerpo-pagina">
+    <header class="encabezado">
+        <div class="encabezado-contenido">
+            <div class="logo">ElectroHogar</div>
+            <button class="boton-menu" aria-label="Abrir menú">☰</button>
+            <nav class="navegacion">
+                <ul id="menu-principal">
+                    <li><a href="estructura.html">Inicio</a></li>
+                    <li><a href="estructuraDelProducto.html">Producto</a></li>
+                    <li><a href="carrito.html">Carrito</a></li>
+                    <li><a href="contactos.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="envoltura-pagina">
+        <div class="contenedor-principal">
+            <aside class="barra-lateral">
+                <h2>Filtros</h2>
+                <nav class="navegacion-filtros">
+                    <ul>
+                        <li><a href="#" data-categoria="todos">Todos</a></li>
+                        <li><a href="#" data-categoria="Refrigeradores">Refrigeradores</a></li>
+                        <li><a href="#" data-categoria="Lavadoras">Lavadoras</a></li>
+                        <li><a href="#" data-categoria="Microondas">Microondas</a></li>
+                        <li><a href="#" data-categoria="Pequeños">Pequeños Electrodomésticos</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <main class="contenido-principal">
+                <section class="seccion-bienvenida">
+                    <h1>Bienvenidos a ElectroHogar</h1>
+                    <p>Las mejores ofertas en electrodomésticos de calidad</p>
+                </section>
+
+                <section class="seccion-productos">
+                    <div id="lista-productos" class="cuadricula-productos">
+                        <article class="tarjeta-producto">
+                            <span class="etiqueta-categoria">Refrigeradores</span>
+                            <figure class="figura-producto">
+                                <a href="estructuraDelProducto.html">
+                                    <img src="imagenes/aire acondicionado.png" alt="Aire acondicionado">
+                                </a>
+                            </figure>
+                            <div class="info-producto">
+                                <h3><a href="estructuraDelProducto.html">Aire acondicionado</a></h3>
+                                <div class="calificacion">4.5</div>
+                                <p class="precio"><strong>$20.00</strong></p>
+                                <button class="boton-agregar">Agregar al carrito</button>
+                            </div>
+                        </article>
+
+                        <article class="tarjeta-producto">
+                            <span class="etiqueta-categoria">Lavadoras</span>
+                            <figure class="figura-producto">
+                                <img src="imagenes/lavadora.png" alt="Lavadora X">
+                            </figure>
+                            <div class="info-producto">
+                                <h3>Lavadora X</h3>
+                                <div class="calificacion">4.7</div>
+                                <p class="precio"><strong>$25.00</strong></p>
+                                <button class="boton-agregar">Agregar al carrito</button>
+                            </div>
+                        </article>
+
+                        <article class="tarjeta-producto">
+                            <span class="etiqueta-categoria">Microondas</span>
+                            <figure class="figura-producto">
+                                <img src="imagenes/microondas digital.png" alt="Microondas Smart">
+                            </figure>
+                            <div class="info-producto">
+                                <h3>Microondas Smart</h3>
+                                <div class="calificacion">4.3</div>
+                                <p class="precio"><strong>$35.00</strong></p>
+                                <button class="boton-agregar">Agregar al carrito</button>
+                            </div>
+                        </article>
+
+                        <article class="tarjeta-producto">
+                            <span class="etiqueta-categoria">Refrigeradores</span>
+                            <figure class="figura-producto">
+                                <img src="imagenes/Refrigerador inverter.png" alt="Refrigerador Premium">
+                            </figure>
+                            <div class="info-producto">
+                                <h3>Refrigerador Premium</h3>
+                                <div class="calificacion">4.9</div>
+                                <p class="precio"><strong>$450.00</strong></p>
+                                <button class="boton-agregar">Agregar al carrito</button>
+                            </div>
+                        </article>
+
+                        <article class="tarjeta-producto">
+                            <span class="etiqueta-categoria">Pequeños</span>
+                            <figure class="figura-producto">
+                                <img src="imagenes/cafetera de goteo.png" alt="Cafetera Express">
+                            </figure>
+                            <div class="info-producto">
+                                <h3>Cafetera Express</h3>
+                                <div class="calificacion">4.8</div>
+                                <p class="precio"><strong>$120.00</strong></p>
+                                <button class="boton-agregar">Agregar al carrito</button>
+                            </div>
+                        </article>
+
+                        <article class="tarjeta-producto">
+                            <span class="etiqueta-categoria">Lavavajillas</span>
+                            <figure class="figura-producto">
+                                <img src="imagenes/lavavajillas compacto.png" alt="Lavavajillas 14 servicios">
+                            </figure>
+                            <div class="info-producto">
+                                <h3>Lavavajillas 14 servicios</h3>
+                                <div class="calificacion">4.6</div>
+                                <p class="precio"><strong>$320.00</strong></p>
+                                <button class="boton-agregar">Agregar al carrito</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <nav class="paginador">
+                        <button class="boton-pagina" data-accion="anterior">Anterior</button>
+                        <button class="boton-pagina boton-pagina-activa" data-pagina="1">1</button>
+                        <button class="boton-pagina" data-pagina="2">2</button>
+                        <button class="boton-pagina" data-accion="siguiente">Siguiente</button>
+                    </nav>
+                </section>
+            </main>
+        </div>
+
+        <footer class="pie-pagina">
+            <div class="pie-pagina-contenido">
+                <div>
+                    <div class="pie-bloque-titulo">ElectroHogar</div>
+                    <p class="pie-descripcion">Tu tienda de confianza para electrodomésticos de calidad. Precios justos y garantía extendida.</p>
+                </div>
+                <div>
+                    <div class="pie-bloque-titulo">Categorías</div>
+                    <ul class="pie-lista">
+                        <li><a href="#">Refrigeradores</a></li>
+                        <li><a href="#">Lavadoras</a></li>
+                        <li><a href="#">Cocinas</a></li>
+                        <li><a href="#">Pequeños Electrodomésticos</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="pie-bloque-titulo">Ayuda</div>
+                    <ul class="pie-lista">
+                        <li><a href="#">Envíos y Entregas</a></li>
+                        <li><a href="#">Garantía</a></li>
+                        <li><a href="#">Devoluciones</a></li>
+                        <li><a href="contactos.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="pie-bloque-titulo">Newsletter</div>
+                    <p>Recibe ofertas exclusivas en electrodomésticos.</p>
+                    <div class="pie-newsletter-caja">
+                        <input type="email" placeholder="Tu correo electrónico">
+                        <button>→</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pie-pagina-copy">
+                © 2025 ElectroHogar. Todos los derechos reservados.
+            </div>
+        </footer>
+    </div>
+
+    <script src="funciones/funciones.js"></script>
+</body>
+</html>
