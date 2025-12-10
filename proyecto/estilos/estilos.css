@@ -78,9 +78,25 @@ body.cuerpo-pagina {
     cursor: pointer;
 }
 .navegacion ul {
-  display: none;
-  
+  display: flex;
+  gap: 12px;
+  list-style: none;
 }
+
+.navegacion a {
+  text-decoration: none;
+  color: var(--gris-texto);
+  padding: 6px 12px;
+  border-radius: 999px;
+  transition: background-color var(--transicion), color var(--transicion);
+}
+
+.navegacion a:hover {
+  background-color: var(--azul-suave);
+  color: var(--azul-oscuro);
+}
+
+
 .navegacion ul.activo {
   display: flex;
 }
