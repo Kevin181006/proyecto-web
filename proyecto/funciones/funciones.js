@@ -4,7 +4,7 @@ const productos = [
     nombre: 'Aire acondicionado 9000 BTU',
     categoria: 'Refrigeradores',
     precio: 450.00,
-    imagen: 'proyecto/imagenes/aire acondicionado.png',
+    imagen: 'imagenes/aire acondicionado.png',
     rating: 4.5
   },
   {
@@ -12,7 +12,7 @@ const productos = [
     nombre: 'Lavadora Samsung 16 kg',
     categoria: 'Lavadoras',
     precio: 520.00,
-    imagen: 'proyecto/imagenes/lavadora.png',
+    imagen: 'imagenes/lavadora.png',
     rating: 4.7
   },
   {
@@ -20,7 +20,7 @@ const productos = [
     nombre: 'Microondas digital 0.9 pies',
     categoria: 'Microondas',
     precio: 180.00,
-    imagen: 'proyecto/imagenes/microondas digital.png',
+    imagen: 'imagenes/microondas digital.png',
     rating: 4.3
   },
   {
@@ -28,7 +28,7 @@ const productos = [
     nombre: 'Refrigerador inverter 18 pies',
     categoria: 'Refrigeradores',
     precio: 950.00,
-    imagen: 'proyecto/imagenes/Refrigerador inverter.png',
+    imagen: 'imagenes/Refrigerador inverter.png',
     rating: 4.9
   },
   {
@@ -36,7 +36,7 @@ const productos = [
     nombre: 'Cafetera de goteo 12 tazas',
     categoria: 'Pequeños',
     precio: 120.00,
-    imagen: 'proyecto/imagenes/cafetera de goteo.png',
+    imagen: 'imagenes/cafetera de goteo.png',
     rating: 4.8
   },
   {
@@ -44,17 +44,16 @@ const productos = [
     nombre: 'Lavavajillas compacto 8 servicios',
     categoria: 'Lavavajillas',
     precio: 320.00,
-    imagen: 'proyecto/imagenes/lavavajillas compacto.png',
+    imagen: 'imagenes/lavavajillas compacto.png',
     rating: 4.6
   },
 
-  // Nuevos productos usando TODAS tus imágenes
   {
     id: 7,
     nombre: 'Secadora eléctrica 18 kg',
     categoria: 'Lavadoras',
     precio: 480.00,
-    imagen: 'proyecto/imagenes/secadora electrica.png',
+    imagen: 'imagenes/secadora electrica.png',
     rating: 4.4
   },
   {
@@ -62,7 +61,7 @@ const productos = [
     nombre: 'Horno eléctrico 60L',
     categoria: 'Pequeños',
     precio: 210.00,
-    imagen: 'proyecto/imagenes/horno electrico.png',
+    imagen: 'imagenes/horno electrico.png',
     rating: 4.2
   },
   {
@@ -70,7 +69,7 @@ const productos = [
     nombre: 'Licuadora profesional 1.5L',
     categoria: 'Pequeños',
     precio: 95.00,
-    imagen: 'proyecto/imagenes/Licuadora profesional.png',
+    imagen: 'imagenes/Licuadora profesional.png',
     rating: 4.1
   },
   {
@@ -78,7 +77,7 @@ const productos = [
     nombre: 'Refrigerador side-by-side 24 pies',
     categoria: 'Refrigeradores',
     precio: 1350.00,
-    imagen: 'proyecto/imagenes/refrigerador sidebyside.png',
+    imagen: 'imagenes/refrigerador sidebyside.png',
     rating: 4.9
   },
   {
@@ -86,7 +85,7 @@ const productos = [
     nombre: 'Campana extractora 90cm',
     categoria: 'Pequeños',
     precio: 260.00,
-    imagen: 'proyecto/imagenes/cmapana estractora.png',
+    imagen: 'imagenes/cmapana estractora.png',
     rating: 4.3
   },
   {
@@ -94,7 +93,7 @@ const productos = [
     nombre: 'Cocina a gas 5 hornillas',
     categoria: 'Pequeños',
     precio: 540.00,
-    imagen: 'proyecto/imagenes/cocina a gas 5 hornillas.png',
+    imagen: 'imagenes/cocina a gas 5 hornillas.png',
     rating: 4.7
   },
   {
@@ -102,7 +101,7 @@ const productos = [
     nombre: 'Heladera vertical 300L',
     categoria: 'Refrigeradores',
     precio: 680.00,
-    imagen: 'proyecto/imagenes/heladera vertical 300.jpg',
+    imagen: 'imagenes/heladera vertical 300.jpg',
     rating: 4.4
   },
   {
@@ -110,7 +109,7 @@ const productos = [
     nombre: 'Horno empotrable eléctrico',
     categoria: 'Pequeños',
     precio: 720.00,
-    imagen: 'proyecto/imagenes/horno empotrable electrico.png',
+    imagen: 'imagenes/horno empotrable electrico.png',
     rating: 4.8
   },
   {
@@ -118,7 +117,7 @@ const productos = [
     nombre: 'Lavadora carga superior 12 kg',
     categoria: 'Lavadoras',
     precio: 390.00,
-    imagen: 'proyecto/imagenes/lavadora carga superior.jpg',
+    imagen: 'imagenes/lavadora carga superior.jpg',
     rating: 4.0
   },
   {
@@ -126,7 +125,7 @@ const productos = [
     nombre: 'Lavavajillas integrado 12 servicios',
     categoria: 'Lavavajillas',
     precio: 610.00,
-    imagen: 'proyecto/imagenes/lavavajillas integrado 12 servicios.jpg',
+    imagen: 'imagenes/lavavajillas integrado 12 servicios.jpg',
     rating: 4.5
   },
   {
@@ -134,7 +133,7 @@ const productos = [
     nombre: 'Robot aspirador inteligente',
     categoria: 'Pequeños',
     precio: 450.00,
-    imagen: 'proyecto/imagenes/robot aspirador inteligente.png',
+    imagen: 'imagenes/robot aspirador inteligente.png',
     rating: 4.6
   },
   {
@@ -142,7 +141,7 @@ const productos = [
     nombre: 'Microondas grill 1.2 pies',
     categoria: 'Microondas',
     precio: 230.00,
-    imagen: 'proyecto/imagenes/microondas grill.png',
+    imagen: 'imagenes/microondas grill.png',
     rating: 4.5
   }
 ];
@@ -153,7 +152,7 @@ const productos = [
 const LIMITE_POR_PAGINA = 6;
 let paginaActual = 1;
 let categoriaActual = 'todos';
-
+let textoBusqueda = '';
 let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
 function guardarCarrito() {
@@ -209,11 +208,22 @@ function cambiarCantidad(idProducto, nuevaCantidad) {
 }
 
 function obtenerProductosFiltrados() {
-    if (categoriaActual === 'todos') {
-        return productos;
-    }
-    return productos.filter(p => p.categoria === categoriaActual);
+  let lista = productos;
+
+  if (categoriaActual !== 'todos') {
+    lista = lista.filter(p => p.categoria === categoriaActual);
+  }
+
+  if (textoBusqueda.trim() !== '') {
+    const termino = textoBusqueda.toLowerCase();
+    lista = lista.filter(p =>
+      p.nombre.toLowerCase().includes(termino)
+    );
+  }
+
+  return lista;
 }
+
 
 function obtenerTotalPaginas() {
     const lista = obtenerProductosFiltrados();
@@ -360,6 +370,17 @@ function iniciarFiltros() {
         });
     });
 }
+function iniciarBuscador() {
+  const input = document.getElementById('buscador-productos');
+  if (!input) return;
+
+  input.addEventListener('input', () => {
+    textoBusqueda = input.value;
+    paginaActual = 1;
+    renderizarProductos();
+  });
+}
+
 
 function actualizarCarritoHeader() {
     let total = 0;
@@ -518,6 +539,7 @@ document.addEventListener('DOMContentLoaded', () => {
     iniciarMenuHamburguesa();
     actualizarCarritoHeader();
     iniciarFiltros();
+    iniciarBuscador();
     renderizarProductos();
     renderizarCarritoPagina();
     iniciarEstrellasDetalle();

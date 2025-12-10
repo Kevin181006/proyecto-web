@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ElectroHogar - Tienda Online</title>
-    <link rel="stylesheet" href="proyecto/estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 <body class="cuerpo-pagina">
     <header class="encabezado">
@@ -13,7 +13,7 @@
             <button class="boton-menu" aria-label="Abrir menú">☰</button>
             <nav class="navegacion">
                 <ul id="menu-principal">
-                    <li><a href="estructura.html">Inicio</a></li>
+                    <li><a href="index.html">Inicio</a></li>
                     <li><a href="estructuraDelProducto.html">Producto</a></li>
                     <li><a href="carrito.html">Carrito</a></li>
                     <li><a href="contactos.html">Contacto</a></li>
@@ -42,6 +42,15 @@
                     <h1>Bienvenidos a ElectroHogar</h1>
                     <p>Las mejores ofertas en electrodomésticos de calidad</p>
                 </section>
+                <section class="barra-busqueda">
+                    <label for="buscador-productos">Buscar producto</label>
+                        <input
+                        type="search"
+                        id="buscador-productos"
+                        placeholder="Escribe el nombre del producto..."
+                        >
+                </section>
+
 
                 <section class="seccion-productos">
                     <div id="lista-productos" class="cuadricula-productos">
@@ -49,7 +58,7 @@
                             <span class="etiqueta-categoria">Refrigeradores</span>
                             <figure class="figura-producto">
                                 <a href="estructuraDelProducto.html">
-                                    <img src="proyecto/imagenes/aire acondicionado.png" alt="Aire acondicionado">
+                                    <img src="imagenes/aire acondicionado.png" alt="Aire acondicionado">
                                 </a>
                             </figure>
                             <div class="info-producto">
@@ -63,7 +72,7 @@
                         <article class="tarjeta-producto">
                             <span class="etiqueta-categoria">Lavadoras</span>
                             <figure class="figura-producto">
-                                <img src="proyecto/imagenes/lavadora.png" alt="Lavadora X">
+                                <img src="imagenes/lavadora.png" alt="Lavadora X">
                             </figure>
                             <div class="info-producto">
                                 <h3>Lavadora X</h3>
@@ -76,7 +85,7 @@
                         <article class="tarjeta-producto">
                             <span class="etiqueta-categoria">Microondas</span>
                             <figure class="figura-producto">
-                                <img src="proyecto/imagenes/microondas digital.png" alt="Microondas Smart">
+                                <img src="imagenes/microondas digital.png" alt="Microondas Smart">
                             </figure>
                             <div class="info-producto">
                                 <h3>Microondas Smart</h3>
@@ -89,7 +98,7 @@
                         <article class="tarjeta-producto">
                             <span class="etiqueta-categoria">Refrigeradores</span>
                             <figure class="figura-producto">
-                                <img src="proyecto/imagenes/Refrigerador inverter.png" alt="Refrigerador Premium">
+                                <img src="imagenes/Refrigerador inverter.png" alt="Refrigerador Premium">
                             </figure>
                             <div class="info-producto">
                                 <h3>Refrigerador Premium</h3>
@@ -102,7 +111,7 @@
                         <article class="tarjeta-producto">
                             <span class="etiqueta-categoria">Pequeños</span>
                             <figure class="figura-producto">
-                                <img src="proyecto/imagenes/cafetera de goteo.png" alt="Cafetera Express">
+                                <img src="imagenes/cafetera de goteo.png" alt="Cafetera Express">
                             </figure>
                             <div class="info-producto">
                                 <h3>Cafetera Express</h3>
@@ -115,7 +124,7 @@
                         <article class="tarjeta-producto">
                             <span class="etiqueta-categoria">Lavavajillas</span>
                             <figure class="figura-producto">
-                                <img src="proyecto/imagenes/lavavajillas compacto.png" alt="Lavavajillas 14 servicios">
+                                <img src="imagenes/lavavajillas compacto.png" alt="Lavavajillas 14 servicios">
                             </figure>
                             <div class="info-producto">
                                 <h3>Lavavajillas 14 servicios</h3>
@@ -175,6 +184,6 @@
         </footer>
     </div>
 
-    <script src="proyecto/funciones/funciones.js"></script>
+    <script src="funciones/funciones.js"></script>
 </body>
 </html>
