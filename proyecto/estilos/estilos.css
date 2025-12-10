@@ -77,22 +77,15 @@ body.cuerpo-pagina {
     font-size: 1.1rem;
     cursor: pointer;
 }
-
 .navegacion ul {
-    list-style: none;
-    display: flex;
-    gap: 14px;
-    margin-left: auto;
+  display: none;
+  
+}
+.navegacion ul.activo {
+  display: flex;
 }
 
-.navegacion a {
-    text-decoration: none;
-    color: var(--gris-texto);
-    font-size: 0.9rem;
-    padding: 6px 10px;
-    border-radius: 999px;
-    transition: var(--transicion);
-}
+
 
 .navegacion a:hover {
     background-color: var(--azul-suave);
@@ -285,7 +278,6 @@ body.cuerpo-pagina {
     color: #ffffff;
 }
 
-/* Paginador preparado para JS */
 
 .paginador {
     margin-top: 18px;
@@ -317,7 +309,6 @@ body.cuerpo-pagina {
     border-color: var(--azul);
 }
 
-/* Detalle de producto */
 
 .navegacion-ruta {
     max-width: 1180px;
@@ -377,7 +368,6 @@ body.cuerpo-pagina {
     color: var(--amarillo);
 }
 
-/* Carrito */
 
 .tabla-carrito {
     width: 100%;

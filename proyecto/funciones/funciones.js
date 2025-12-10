@@ -467,14 +467,27 @@ function renderizarCarritoPagina() {
 }
 
 function iniciarMenuHamburguesa() {
-    const boton = document.querySelector('.boton-menu');
-    const menu = document.getElementById('menu-principal');
-    if (!boton || !menu) return;
+  const boton = document.querySelector('.boton-menu');
+  const menu = document.getElementById('menu-principal');
+  if (!boton || !menu) return;
 
-    boton.addEventListener('click', () => {
-        menu.classList.toggle('activo');
+  boton.setAttribute('aria-expanded', 'false');
+
+  boton.addEventListener('click', () => {
+    const abierto = menu.classList.toggle('activo');
+    boton.setAttribute('aria-expanded', abierto ? 'true' : 'false');
+  });
+
+  menu.querySelectorAll('a').forEach(enlace => {
+    enlace.addEventListener('click', () => {
+      if (menu.classList.contains('activo')) {
+        menu.classList.remove('activo');
+        boton.setAttribute('aria-expanded', 'false');
+      }
     });
+  });
 }
+
 
 function iniciarEstrellasDetalle() {
     const contenedor = document.getElementById('caja-estrellas');
