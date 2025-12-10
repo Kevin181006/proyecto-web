@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito - ElectroHogar</title>
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Contacto - ElectroHogar</title>
+    <link rel="stylesheet" href="proyecto/estilos/estilos.css">
 </head>
 <body class="cuerpo-pagina">
     <header class="encabezado">
@@ -24,30 +24,19 @@
 
     <div class="envoltura-pagina">
         <main class="contenido-principal">
-            <h1>Tu carrito</h1>
-            <table class="tabla-carrito">
-                <thead>
-                    <tr>
-                        <th>Producto</th>
-                        <th>Precio</th>
-                        <th>Total</th>
-                    </tr>
-                </thead>
-                <tbody id="cuerpo-carrito">
-                    <tr>
-                        <td>Batidora Pro</td>
-                        <td>$20.00</td>
-                        <td>$20.00</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="2"><strong>Total</strong></td>
-                        <td id="total-carrito"><strong>$20.00</strong></td>
-                    </tr>
-                </tfoot>
-            </table>
-            <a class="enlace-volver" href="estructura.html">← Seguir comprando</a>
+            <h1>Contacto</h1>
+            <form class="formulario-contacto">
+                <label>Nombre</label>
+                <input type="text" required>
+
+                <label>Email</label>
+                <input type="email" required>
+
+                <label>Mensaje</label>
+                <textarea required></textarea>
+
+                <button type="submit" class="boton-enviar">Enviar</button>
+            </form>
         </main>
 
         <footer class="pie-pagina">
@@ -89,6 +78,6 @@
         </footer>
     </div>
 
-    <script src="funciones/funciones.js"></script>
+    <script src="proyecto/funciones/funciones.js"></script>
 </body>
 </html>

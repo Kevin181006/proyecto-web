@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - ElectroHogar</title>
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Detalle Producto - ElectroHogar</title>
+    <link rel="stylesheet" href="proyecto/estilos/estilos.css">
 </head>
 <body class="cuerpo-pagina">
     <header class="encabezado">
@@ -24,19 +24,31 @@
 
     <div class="envoltura-pagina">
         <main class="contenido-principal">
-            <h1>Contacto</h1>
-            <form class="formulario-contacto">
-                <label>Nombre</label>
-                <input type="text" required>
+            <nav class="navegacion-ruta">
+                <a href="index.html">← Volver a productos</a>
+            </nav>
 
-                <label>Email</label>
-                <input type="email" required>
+            <article class="producto-detalle">
+                <figure class="figura-producto-detalle">
+                    <img id="detalle-imagen" src="proyecto/imagenes/batidora.png" alt="Batidora Pro">
+                </figure>
+                <div class="producto-info-detalle">
+                    <h1 id="detalle-nombre">Batidora Pro</h1>
+                    <p id="detalle-sku">SKU: 12345</p>
+                    <p class="precio-detalle" id="detalle-precio"><strong>$20.00</strong></p>
+                    <p id="detalle-descripcion">
+                        Excelente batidora para repostería con 5 velocidades y accesorios de acero inoxidable.
+                    </p>
 
-                <label>Mensaje</label>
-                <textarea required></textarea>
+                    <div class="bloque-valoracion">
+                        <p>Califica este producto:</p>
+                        <div id="caja-estrellas" class="valoracion-estrellas"></div>
+                        <p id="texto-valoracion">Tu voto: 0</p>
+                    </div>
 
-                <button type="submit" class="boton-enviar">Enviar</button>
-            </form>
+                    <button class="boton-agregar" id="boton-detalle-carrito">Agregar al carrito</button>
+                </div>
+            </article>
         </main>
 
         <footer class="pie-pagina">
@@ -78,6 +90,6 @@
         </footer>
     </div>
 
-    <script src="funciones/funciones.js"></script>
+    <script src="proyecto/funciones/funciones.js"></script>
 </body>
 </html>

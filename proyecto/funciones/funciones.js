@@ -4,7 +4,7 @@ const productos = [
     nombre: 'Aire acondicionado 9000 BTU',
     categoria: 'Refrigeradores',
     precio: 450.00,
-    imagen: 'imagenes/aire acondicionado.png',
+    imagen: 'proyecto/imagenes/aire acondicionado.png',
     rating: 4.5
   },
   {
@@ -12,7 +12,7 @@ const productos = [
     nombre: 'Lavadora Samsung 16 kg',
     categoria: 'Lavadoras',
     precio: 520.00,
-    imagen: 'imagenes/lavadora.png',
+    imagen: 'proyecto/imagenes/lavadora.png',
     rating: 4.7
   },
   {
@@ -20,7 +20,7 @@ const productos = [
     nombre: 'Microondas digital 0.9 pies',
     categoria: 'Microondas',
     precio: 180.00,
-    imagen: 'imagenes/microondas digital.png',
+    imagen: 'proyecto/imagenes/microondas digital.png',
     rating: 4.3
   },
   {
@@ -28,7 +28,7 @@ const productos = [
     nombre: 'Refrigerador inverter 18 pies',
     categoria: 'Refrigeradores',
     precio: 950.00,
-    imagen: 'imagenes/Refrigerador inverter.png',
+    imagen: 'proyecto/imagenes/Refrigerador inverter.png',
     rating: 4.9
   },
   {
@@ -36,7 +36,7 @@ const productos = [
     nombre: 'Cafetera de goteo 12 tazas',
     categoria: 'Pequeños',
     precio: 120.00,
-    imagen: 'imagenes/cafetera de goteo.png',
+    imagen: 'proyecto/imagenes/cafetera de goteo.png',
     rating: 4.8
   },
   {
@@ -44,7 +44,7 @@ const productos = [
     nombre: 'Lavavajillas compacto 8 servicios',
     categoria: 'Lavavajillas',
     precio: 320.00,
-    imagen: 'imagenes/lavavajillas compacto.png',
+    imagen: 'proyecto/imagenes/lavavajillas compacto.png',
     rating: 4.6
   },
 
@@ -53,7 +53,7 @@ const productos = [
     nombre: 'Secadora eléctrica 18 kg',
     categoria: 'Lavadoras',
     precio: 480.00,
-    imagen: 'imagenes/secadora electrica.png',
+    imagen: 'proyecto/imagenes/secadora electrica.png',
     rating: 4.4
   },
   {
@@ -61,7 +61,7 @@ const productos = [
     nombre: 'Horno eléctrico 60L',
     categoria: 'Pequeños',
     precio: 210.00,
-    imagen: 'imagenes/horno electrico.png',
+    imagen: 'proyecto/imagenes/horno electrico.png',
     rating: 4.2
   },
   {
@@ -69,7 +69,7 @@ const productos = [
     nombre: 'Licuadora profesional 1.5L',
     categoria: 'Pequeños',
     precio: 95.00,
-    imagen: 'imagenes/Licuadora profesional.png',
+    imagen: 'proyecto/imagenes/Licuadora profesional.png',
     rating: 4.1
   },
   {
@@ -77,7 +77,7 @@ const productos = [
     nombre: 'Refrigerador side-by-side 24 pies',
     categoria: 'Refrigeradores',
     precio: 1350.00,
-    imagen: 'imagenes/refrigerador sidebyside.png',
+    imagen: 'proyecto/imagenes/refrigerador sidebyside.png',
     rating: 4.9
   },
   {
@@ -85,7 +85,7 @@ const productos = [
     nombre: 'Campana extractora 90cm',
     categoria: 'Pequeños',
     precio: 260.00,
-    imagen: 'imagenes/cmapana estractora.png',
+    imagen: 'proyecto/imagenes/cmapana estractora.png',
     rating: 4.3
   },
   {
@@ -93,7 +93,7 @@ const productos = [
     nombre: 'Cocina a gas 5 hornillas',
     categoria: 'Pequeños',
     precio: 540.00,
-    imagen: 'imagenes/cocina a gas 5 hornillas.png',
+    imagen: 'proyecto/imagenes/cocina a gas 5 hornillas.png',
     rating: 4.7
   },
   {
@@ -101,7 +101,7 @@ const productos = [
     nombre: 'Heladera vertical 300L',
     categoria: 'Refrigeradores',
     precio: 680.00,
-    imagen: 'imagenes/heladera vertical 300.jpg',
+    imagen: 'proyecto/imagenes/heladera vertical 300.jpg',
     rating: 4.4
   },
   {
@@ -109,7 +109,7 @@ const productos = [
     nombre: 'Horno empotrable eléctrico',
     categoria: 'Pequeños',
     precio: 720.00,
-    imagen: 'imagenes/horno empotrable electrico.png',
+    imagen: 'proyecto/imagenes/horno empotrable electrico.png',
     rating: 4.8
   },
   {
@@ -117,7 +117,7 @@ const productos = [
     nombre: 'Lavadora carga superior 12 kg',
     categoria: 'Lavadoras',
     precio: 390.00,
-    imagen: 'imagenes/lavadora carga superior.jpg',
+    imagen: 'proyecto/imagenes/lavadora carga superior.jpg',
     rating: 4.0
   },
   {
@@ -125,7 +125,7 @@ const productos = [
     nombre: 'Lavavajillas integrado 12 servicios',
     categoria: 'Lavavajillas',
     precio: 610.00,
-    imagen: 'imagenes/lavavajillas integrado 12 servicios.jpg',
+    imagen: 'proyecto/imagenes/lavavajillas integrado 12 servicios.jpg',
     rating: 4.5
   },
   {
@@ -133,7 +133,7 @@ const productos = [
     nombre: 'Robot aspirador inteligente',
     categoria: 'Pequeños',
     precio: 450.00,
-    imagen: 'imagenes/robot aspirador inteligente.png',
+    imagen: 'proyecto/imagenes/robot aspirador inteligente.png',
     rating: 4.6
   },
   {
@@ -141,7 +141,7 @@ const productos = [
     nombre: 'Microondas grill 1.2 pies',
     categoria: 'Microondas',
     precio: 230.00,
-    imagen: 'imagenes/microondas grill.png',
+    imagen: 'proyecto/imagenes/microondas grill.png',
     rating: 4.5
   }
 ];
